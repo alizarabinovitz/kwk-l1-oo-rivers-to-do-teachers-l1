@@ -21,6 +21,9 @@ class River
 
   def dry_up
     @discharge = @discharge * .5
+  end
+
+end
 
 #nile egypt, sudan, south sudan, ethiopia, uganda, congo, kenya, tanzania, rwanda, burundi, eritrea
 #6853
