@@ -1,6 +1,6 @@
 # river.rb
 class River
-  def initialize(name, countries_flows_through, discharge)
+  def initialize(name)
     @name = name
 
   def countries_flows_through(countries_flows_through)
@@ -28,3 +28,4 @@ end
 #nile egypt, sudan, south sudan, ethiopia, uganda, congo, kenya, tanzania, rwanda, burundi, eritrea
 #6853
 #2830
+nile = new.River("Nile", "Egypt", "")
