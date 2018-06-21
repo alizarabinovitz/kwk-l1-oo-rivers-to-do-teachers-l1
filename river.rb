@@ -5,14 +5,8 @@ class River
   
   def initialize(name)
     @name = name
-
-  def countries_flows_through(countries_flows_through)
-    @countries_flows_through = countries_flows_through
-  end
-
-  def length(length)
-    @length = length
-  end
+    @length = nil
+    @countries = nil
 
   def discharge(discharge)
     @discharge = discharge
