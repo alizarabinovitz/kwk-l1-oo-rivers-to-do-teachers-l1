@@ -7,6 +7,7 @@ class River
     @name = name
     @length = nil
     @countries = nil
+  end
 
   def discharge(discharge)
     @discharge = discharge
